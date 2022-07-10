@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    background-image: url(./day-image.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.container h1 {
+    font-size: 4em;
+    color: #000;
+    background-color:rgb(138, 255, 241);
+    padding: 25px 30px;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+}
+
+.container #clock {
+    background-color: #000;
+    width: 30vw;
+    text-align: center;
+}
+
+.container #clock span{
+    color: #fff;
+    font-size: 4em;
+    font-family:'Poppins';
+    margin-left: 5px;
+}
+
+@media(max-width:662px) {
+    .container #clock span {
+        font-size: 2rem;
+    }
+}
+
